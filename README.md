@@ -33,7 +33,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * https://angular.io/tutorial/toh-pt6#simulate-a-data-server
 *how-to setup an memory-server for Angular 6.0*
 * Run: ```npm install angular-in-memory-web-api --save```
-* **Enable Http services: Add to src/app/app.module.ts (In-memory Web API imports):** 
+* Add: Enable Http services: **Add to src/app/app.module.ts (In-memory Web API imports):** 
 ```
 import { HttpClientModule} from '@angular/common/http' ;
 ```

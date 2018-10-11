@@ -1,0 +1,10 @@
+<h2>My Test Values</h2>
+
+<ul class="testValues">
+  <li *ngFor="let vals of testValues">
+   <a> <!-- routerLink="/detail/{{hero.id}}"-->
+      <span class="badge">{{vals.Id}}</span> {{vals.Value}} - {{vals.Description}}
+    </a>
+    <button class="delete" title="delete hero">x</button>
+  </li>
+</ul>

@@ -1,5 +1,5 @@
 export interface TestValue {
-    Id: number;
-    Value: string;
-    Description: string;
+    Id: number,
+    Value: string,
+    Description: string
 }

@@ -1,15 +1,17 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { HttpClientModule} from '@angular/common/http' ;
+import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { InMemoryDataService }  from './shared/in-memory-data.service';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InMemoryDataService } from './shared/in-memory-data.service';
+import { TestValueListComponent } from './test-value/test-value-list.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TestValueListComponent
   ],
   imports: [
     BrowserModule,
